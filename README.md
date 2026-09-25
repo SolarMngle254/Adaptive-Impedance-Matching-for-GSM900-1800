@@ -1,16 +1,24 @@
 # Adaptive Impedance Matching of a Dual-Band L-Network for GSM900/1800 Application
 
+# Adaptive Impedance Matching of a Dual-Band L-Network for GSM900/1800 Application
+
 > This repository is a compact software companion to a Microwave Engineering project at Ho Chi Minh City University of Technology (HCMUT - VNU).
 >
 > It studies **Adaptive Impedance Matching (AIM)** using a tunable **L-network** with two cascaded control loops: a shunt branch for the real part of the matched impedance and a series branch for the residual reactance.
 >
 > The MATLAB implementation is intentionally visualization-oriented: analytical design, finite-Q evaluation, phase-sweep studies, A–F benchmark cases, and a Smith-chart tracking animation showing how the impedance moves from the initial mismatch toward the 50-Ω target.
 >
-> During the development of this project, several research papers on **Adaptive Impedance Matching (AIM)** were reviewed. In particular, **[1]** served as an important reference for the adaptive control concept and tunable L-network analysis.
+> During the development of this project, several research papers on **Adaptive Impedance Matching (AIM)** were reviewed. In particular, **[1](#references)** served as an important reference for the adaptive control concept and tunable L-network analysis.
 >
 > The project was developed as part of a **Microwave Engineering course project at HCMUT - VNU**, where the concepts of impedance matching, tunable L-networks, and adaptive control were studied and applied to a dual-band GSM900/1800 application.
 
 ---
+
+## References
+
+[1] A. van Bezooijen, M. A. de Jongh, F. van Straten, R. Mahmoudi, and A. H. M. van Roermund, “Adaptive Impedance-Matching Techniques for Controlling L Networks,” *IEEE Transactions on Circuits and Systems I: Regular Papers*, vol. 57, no. 2, pp. 495–505, Feb. 2010. [DOI: 10.1109/TCSI.2009.2023764](https://doi.org/10.1109/TCSI.2009.2023764).
+
+[2] HCMUT Microwave Engineering Course Project, “Analysis and Tuning of L-Network Impedance Matching Under Antenna Impedance Variations Using Adaptive Control Techniques,” Group 06, 2026.
 A hierarchical view of the repository is
 
 ![Smith-chart AIM tracking](pics/sim/smith_tracking_case_E_900MHz.gif)
