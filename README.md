@@ -6,13 +6,12 @@
 >
 > The MATLAB implementation is intentionally visualization-oriented: analytical design, finite-Q evaluation, phase-sweep studies, A–F benchmark cases, and a Smith-chart tracking animation showing how the impedance moves from the initial mismatch toward the 50-Ω target.
 >
-> During the development of this project, several research papers on **Adaptive Impedance Matching (AIM)** were reviewed. In particular, **[1](#references)** served as an important reference for the adaptive control concept and tunable L-network analysis.
+> During the development of this project, several research papers on **Adaptive Impedance Matching (AIM)** were reviewed. In particular, **[[1]](#10-references)** served as an important reference for the adaptive control concept and tunable L-network analysis.
 >
 > The project was developed as part of a **Microwave Engineering course project at HCMUT - VNU**, where the concepts of impedance matching, tunable L-networks, and adaptive control were studied and applied to a dual-band GSM900/1800 application.
 
 ---
 
-[2] HCMUT Microwave Engineering Course Project, “Analysis and Tuning of L-Network Impedance Matching Under Antenna Impedance Variations Using Adaptive Control Techniques,” Group 06, 2026.
 A hierarchical view of the repository is
 
 ![Smith-chart AIM tracking](pics/sim/smith_tracking_case_E_900MHz.gif)
