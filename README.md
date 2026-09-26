@@ -252,7 +252,7 @@ Run:
 plot_phase_sweep(900e6, 4.3, true)
 ```
 
-![Phase sweep at 900 MHz](pics/sim/phase_sweep_900MHz.png)
+![Phase sweep at 900 MHz](pics/phase_sweep_900MHz.png)
 
 ### C. Smith-chart matching trajectory
 
