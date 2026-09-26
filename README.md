@@ -181,7 +181,7 @@ The original hardware-oriented concept can therefore be summarized as
 $$
 \text{RF voltage/current sensing}
 \rightarrow \text{quadrature detection}
-\rightarrow \operatorname{sign}(E)
+\rightarrow \mathrm{sign}(E)
 \rightarrow \text{Up/Down counter}
 \rightarrow \text{switched-capacitor array}.
 $$
