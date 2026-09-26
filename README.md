@@ -6,7 +6,7 @@
 >
 > The MATLAB implementation is intentionally visualization-oriented: analytical design, finite-Q evaluation, phase-sweep studies, A–F benchmark cases, and a Smith-chart tracking animation showing how the impedance moves from the initial mismatch toward the 50-Ω target.
 >
-> During the development of this project, several research papers on **Adaptive Impedance Matching (AIM)** were reviewed. In particular, **[[1]](#10-references)** served as an important reference for the adaptive control concept and tunable L-network analysis.
+> During the development of this project, several research papers on **Adaptive Impedance Matching (AIM)** were reviewed. In particular, **[[1]](#9-references)** served as an important reference for the adaptive control concept and tunable L-network analysis.
 >
 > The project was developed as part of a **Microwave Engineering course project at HCMUT - VNU**, where the concepts of impedance matching, tunable L-networks, and adaptive control were studied and applied to a dual-band GSM900/1800 application.
 
@@ -14,7 +14,7 @@
 
 A hierarchical view of the repository is
 
-![Smith-chart AIM tracking](pics/sim/smith_tracking_case_E_900MHz.gif)
+![Smith-chart AIM tracking](pics/sim/smith_tracking.gif)
 
 $$
 Z_{LOAD}
@@ -227,9 +227,9 @@ plot_case_summary(900e6, true)
 plot_case_summary(1800e6, true)
 ```
 
-![900 MHz benchmark preview](pics/sim/case_summary_900MHz.png)
+![900 MHz benchmark preview](pics/case_summary_900MHz.png)
 
-![1800 MHz benchmark preview](pics/sim/case_summary_1800MHz.png)
+![1800 MHz benchmark preview](pics/case_summary_1800MHz.png)
 
 ### B. Phase-of-$\Gamma_{LOAD}$ sweep
 
