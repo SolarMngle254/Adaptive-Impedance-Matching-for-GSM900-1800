@@ -336,21 +336,7 @@ run('scripts/generate_all_figures.m')
 
 ---
 
-## 8. Quick Start
-
-MATLAB R2021b or newer is recommended. The core analytical model does **not** require RF Toolbox.
-
-```matlab
-cd('Adaptive-Impedance-Matching-L-Network')
-addpath('srcs')
-run('srcs/MAIN_AIM_LNetwork.m')
-```
-
-The scripts use standard MATLAB plotting and table functions. GIF creation uses `getframe`, `frame2im`, `rgb2ind`, and `imwrite`.
-
----
-
-## 9. Key Idea
+## 8. Key Idea
 
 $$
 \boxed{
@@ -366,23 +352,16 @@ The repository is deliberately organized like the author's UAV repositories: a s
 
 ---
 
-## 10. References
+## 9. References
 
-[1] A. van Bezooijen, M. A. de Jongh, F. van Straten, R. Mahmoudi, and A. H. M. van Roermund, “Adaptive Impedance-Matching Techniques for Controlling L Networks,” *IEEE Transactions on Circuits and Systems I: Regular Papers*, vol. 57, no. 2, pp. 495–505, Feb. 2010. DOI: 10.1109/TCSI.2009.2023764.
+[1] A. van Bezooijen, M. A. de Jongh, F. van Straten, R. Mahmoudi, and A. H. M. van Roermund, “Adaptive impedance-matching techniques for controlling L networks,” *IEEE Trans. Circuits Syst. I: Reg. Papers*, vol. 57, no. 2, pp. 495–505, Feb. 2010, doi: 10.1109/TCSI.2009.2023764.
 
-[2] HCMUT Microwave Engineering course project, “Analysis and Tuning of L-Network Impedance Matching Under Antenna Impedance Variations Using Adaptive Control Techniques,” Group 06, 2026.
+[2] M. Alibakhshikenari, B. S. Virdee, L. Azpilicueta, C. H. See, R. Abd-Alhameed, A. A. Althuwayb, F. Falcone, I. Huynen, T. A. Denidni, and E. Limiti, “Optimum power transfer in RF front end systems using adaptive impedance matching technique,” *Sci. Rep.*, vol. 11, no. 1, Art. no. 11825, 2021, doi: 10.1038/s41598-021-91355-4.
 
----
+[3] K. Brito and R. N. de Lima, “Tunable impedance matching network,” in *Proc. 2007 SBMO/IEEE MTT-S Int. Microwave and Optoelectronics Conf. (IMOC)*, 2007, pp. 117–121, doi: 10.1109/IMOC.2007.4404217.
 
-## Attribution / Public-Repository Note
+[4] D. M. Pozar, *Microwave Engineering*, 4th ed. Hoboken, NJ, USA: John Wiley & Sons, 2011.
 
-The IEEE article itself is **not bundled** in this repository. Keep the DOI/reference above rather than redistributing the publisher PDF.
-
-The original group report is also not bundled by default. A public repository should avoid exposing other students' personal information; this repo instead contains a condensed technical reconstruction in Markdown.
+[5] F. Siraksaz, “A 23.4–31.9 GHz tunable RF-MEMS impedance matching network for 5G power amplifier,” in *Proc. 2021 29th Iranian Conf. Electrical Engineering (ICEE)*, 2021, pp. 1–5, doi: 10.1109/ICEE52715.2021.9544293.
 
 ---
-
-## 11. Publish to GitHub
-
-A compact publishing checklist, suggested repository description, topics, and `git` commands are provided in [`docs/08_github_publish.md`](docs/08_github_publish.md).
-
