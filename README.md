@@ -14,8 +14,6 @@
 
 A hierarchical view of the repository is
 
-![Smith-chart AIM tracking](pics/sim/smith_tracking.gif)
-
 $$
 Z_{LOAD}
 \rightarrow \text{Shunt LC / 1st loop}
@@ -24,6 +22,8 @@ Z_{LOAD}
 \rightarrow Z_{MATCH}
 \rightarrow \{\Gamma,\ VSWR,\ IL,\ G\}.
 $$
+
+![Smith-chart AIM tracking](pics/sim/smith_tracking.gif)
 
 ---
 
