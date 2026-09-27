@@ -6,6 +6,11 @@ The architecture separates the matching task into two physical actions.
 
 ### First loop — real-part control
 
+<div align="center">
+  <img src="../pics/LCparallel.png" alt="Simplified dual-band adaptive L-network parallel admittance model" width="850">
+  <br><em>Simplified dual-band adaptive L-network parallel admittance model with tunable parallel susceptance.</em>
+</div>
+
 The shunt capacitor changes $B_{INT}$ and therefore changes
 
 $$
@@ -24,6 +29,11 @@ The four-quadrant solution adds a secondary criterion derived from the sign of t
 
 ### Second loop — reactance cancellation
 
+<div align="center">
+  <img src="../pics/LCseries.png" alt="Simplified dual-band adaptive L-network series impedance model" width="850">
+  <br><em>Simplified dual-band adaptive L-network series impedance model with tunable series reactance.</em>
+</div>
+
 Once the first loop has established the desired real part, the series capacitor adjusts
 
 $$
@@ -41,6 +51,11 @@ This branch is monotonic over its valid region and is naturally compatible with 
 ## Quadrature detector
 
 The hardware concept senses RF voltage and current. A quadrature detector extracts two DC quantities proportional to the real and imaginary parts of the measured complex impedance. The amplitude ratio cancels the absolute RF power level, which is a key reason this detector is useful for direct adaptive control.
+
+<div align="center">
+  <img src="../pics/quadrature.png" alt="Quadrature-based impedance detection architecture" width="850">
+  <br><em>Quadrature-based impedance detection architecture for extracting the resistive and reactive components.</em>
+</div>
 
 ## Why this repository uses a digital twin
 
