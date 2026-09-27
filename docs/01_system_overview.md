@@ -26,6 +26,11 @@ Parallel LC <------------------- 1st control loop
 
 The physical controller senses RF voltage and current, derives real and imaginary impedance information, extracts the signs of the corresponding errors, and uses Up/Down counters to control switched-capacitor arrays.
 
+<div align="center">
+  <img src="pics/concepts_overall.png" alt="Dual-Band Adaptive L-Network Impedance-Matching Architecture" width="850">
+  <br><em>Dual-band adaptive L-network impedance-matching architecture.</em>
+</div>
+
 ## Baseline design
 
 | Parameter | Value |
