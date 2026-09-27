@@ -231,17 +231,17 @@ plot_case_summary(1800e6, true)
 
 ![1800 MHz benchmark preview](pics/case_summary_1800MHz.png)
 
-### B. Phase-of-$\Gamma_{LOAD}$ sweep
+### B. Phase Sweep of the Load Reflection Coefficient
 
 This directly addresses the phase-sensitivity view used in the IEEE paper. The code sweeps
 
 $$
-\angle\Gamma_{LOAD}\in[-180^\circ,180^\circ]
+\angle \Gamma_{LOAD} \in [-180^\circ, 180^\circ]
 $$
 
-for a selected VSWR circle and plots
+for a selected VSWR circle and plots:
 
-- $IL$ versus phase,
+- $I_L$ versus phase,
 - $G$ versus phase,
 - required $C_{PAR}$ and $C_{SERIES}$ versus phase,
 - infeasible regions caused by capacitor limits.
