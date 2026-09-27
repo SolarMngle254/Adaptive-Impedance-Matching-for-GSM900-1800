@@ -1,5 +1,11 @@
 # Adaptive Impedance Matching of a Dual-Band L-Network for GSM900/1800 Application
 
+![MATLAB](https://img.shields.io/badge/MATLAB-R2025a-blue)
+![Keysight ADS](https://img.shields.io/badge/Keysight%20ADS-2023a-orange)
+![Microwave](https://img.shields.io/badge/Field-Microwave%20Engineering-orange)
+![Control](https://img.shields.io/badge/Control-Adaptive%20Impedance%20Matching-green)
+![Status](https://img.shields.io/badge/Status-Academic%20Project-red)
+
 > This repository is a compact software companion to a Microwave Engineering project at Ho Chi Minh City University of Technology (HCMUT - VNU).
 >
 > It studies **Adaptive Impedance Matching (AIM)** using a tunable **L-network** with two cascaded control loops: a shunt branch for the real part of the matched impedance and a series branch for the residual reactance.
@@ -293,20 +299,23 @@ run('scripts/generate_all_figures.m')
 │
 ├── pics/
 │   ├── sim/
-│   │   ├── case_summary_900MHz.png
-│   │   ├── case_summary_1800MHz.png
-│   │   ├── phase_sweep_900MHz.png
-│   │   ├── phase_sweep_1800MHz.png
-│   │   └── smith_tracking_case_E_900MHz.gif
-│   └── README.md
-│
-├── results/
-│   └── benchmark_results.csv
+│   │   └── smith_tracking.gif
+│   │
+│   ├── LCparallel.png
+│   ├── LCseries.png
+│   ├── case_summary_1800MHz.png
+│   ├── case_summary_900MHz.png
+│   ├── concepts_final.png
+│   ├── concepts_overall.png
+│   ├── detectors.png
+│   ├── phase_sweep_1800MHz.png
+│   ├── phase_sweep_900MHz.png
+│   └── quadrature.png
 │
 ├── scripts/
-│   ├── reproduce_benchmark_table.m
 │   ├── demo_case_E_900MHz.m
-│   └── generate_all_figures.m
+│   ├── generate_all_figures.m
+│   └── reproduce_benchmark_table.m
 │
 ├── srcs/
 │   ├── MAIN_AIM_LNetwork.m
@@ -327,10 +336,6 @@ run('scripts/generate_all_figures.m')
 ├── tests/
 │   └── validate_reference_cases.m
 │
-├── references/
-│   └── README.md
-├── .gitignore
-├── LICENSE
 └── README.md
 ```
 
